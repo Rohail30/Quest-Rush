@@ -1,0 +1,110 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    border-top: 2px solid black;
+    background: linear-gradient(50deg, rgba(128, 255, 114, 1) 0%, rgba(126, 232, 250, 1) 100%);
+    justify-content: space-between;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px; 
+}
+
+.footer h1 a {
+    padding: 0;
+}
+
+.footer .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em; 
+}
+
+.footer .main-nav i {
+    background-color: #eceeef;
+    color: #000;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 28px; 
+    width: 28px; 
+    height: 28px;
+    text-align: center;
+    margin-right: 6px; 
+    border-radius: 50%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.footer .main-nav i:hover {
+    color: #fff;
+    background-color: #f4f4f4;
+}
+
+.footer .main-nav .fa-facebook:hover {
+    background-color: #3b5998;
+    color: #f4f4f4;
+}
+
+.footer .main-nav .fa-twitter:hover {
+    background-color: #00aced;
+    color: #f4f4f4;
+}
+
+.footer .main-nav .fa-linkedin:hover {
+    background-color: #007bb6;
+    color: #f4f4f4;
+}
+
+.footer .main-nav .fa-dribbble:hover {
+    background-color: #ea4c89;
+    color: #f4f4f4;
+}
+
+@media (min-width: 769px) {
+    .footer,
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer {
+        padding: 15px 35px; 
+    }
+}
+
+@media (max-width: 800px) {
+    .footer,
+    .main-nav {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 15px 10px; 
+        flex-direction: column;
+    }
+}
+

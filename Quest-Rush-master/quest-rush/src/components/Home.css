@@ -1,0 +1,67 @@
+.home h2 {
+    font-size: 3rem;
+    max-width: 1000px;
+    margin-bottom: 1.7rem;
+}
+
+.home p {
+    font-size: 1.3rem;
+    max-width: 700px;
+}
+
+.home .get-started {
+    margin: 20px 0px;
+}
+
+.home .quest-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: none;
+    background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 10px) no-repeat,
+            linear-gradient(90deg, #80ff72 0%, #7EE8FA 100%);
+}
+
+.home .quest-btn:hover {
+    background: linear-gradient(90deg, rgba(128, 255, 114, 1) 0%, rgba(126, 232, 250, 1) 100%);
+    color: black;
+}
+
+.home .quest-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.home .quest-btn:hover a {
+    color: white;
+}
+
+.home {
+    padding: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 767px) {
+    .home h2 {
+        font-size: 2.5rem;
+    }
+
+    .home p {
+        font-size: 1.1rem;
+    }
+
+    .home .quest-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}

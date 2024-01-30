@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.create-container{
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.create-container #contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.create-container #contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.create-container fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.create-container #contact input[type="text"],
+.create-container #contact input[type="email"],
+.create-container #contact input[type="number"],
+.create-container #contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+.create-container #contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.create-container #contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 10px) no-repeat,
+      linear-gradient(90deg, #80ff72 0%, #7EE8FA 100%);
+  color: #000000;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.create-container #contact button:hover {
+  background: linear-gradient(90deg, rgba(128, 255, 114, 1) 0%, rgba(126, 232, 250, 1) 100%);
+  color: #000000;
+}
