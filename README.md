@@ -4,7 +4,7 @@ Quest Rush: React-powered front-end, your portal to diverse quests. Create, shar
 ### To start the Project
 1. Clone the repository: 
    ```
-   https://github.com/Iqbalshah786/Coffee-Delivery.git
+   git clone https://github.com/Rohail30/Quest-Rush.git
    ```
 2. Install dependencies:
    ```
